@@ -5,6 +5,7 @@ A Python script to unhide posts on Reddit. Many users on Reddit routinely hide p
 If a user wanted to unhide all of their previously hidden posts, they would have to manually click "unhide" on each post: potentially a very time-consuming process.
 
 This script methodically unhides all the hidden posts saved on a user's account. It is designed to be run in the background over time, as the Reddit API limits requests to no more than 30 requests per minute.
+By default it does not unhide posts that are less than a day old in order to not affect the daily browsing of users.
 
 Dependencies
 ------------
