@@ -7,7 +7,7 @@ If a user wanted to unhide all of their previously hidden posts, they would have
 This script methodically unhides all the hidden posts saved on a user's account. It is designed to be run in the background over time, as the Reddit API limits requests to no more than 30 requests per minute.
 By default it does not unhide posts that are less than a day old in order to not affect the daily browsing of users.
 
-Note: It looks like Reddit only stores the 450 most recently hidden items anyway, so this tool isn't as useful as I thought it would be.
+**Note:** It looks like Reddit only stores the 450 most recently hidden items anyway, so this tool isn't as useful as I thought it would be.
 
 Dependencies
 ------------
