@@ -25,7 +25,7 @@ while not no_more:
 	for post in hidden_posts:
 		no_more = False
 		if int(post.created_utc) >= time_cutoff:
-			after = "t3_%s" % post.id
+			after = post.name
 			continue
 		print "Unhiding [%s] ... " % post.title
 		post.unhide()
